@@ -1,0 +1,14 @@
+- 
+    name: Install dependencies
+    hosts:  myhost-group
+    var:
+    tasks:
+    - name: Install MySQL
+      apt: name="{{items}}" state=present
+      with_items:
+      -  
+      
+      
+      
+      
+      
