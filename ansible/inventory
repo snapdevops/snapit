@@ -1,1 +1,4 @@
-db_and_web_server ansible_connection=ssh ansible_ssh_pass=Passw0rd ansible_host=192.168.1.14
+[db_and_web_server]
+ec2-3-86-209-170.compute-1.amazonaws.com ansible_user=ubuntu ansible_ssh_private_key_file=/Users/vamsisannapureddy/Downloads/snapit-main/ansible/mykey.pem  
+
+
